@@ -1,83 +1,78 @@
-🐾 Vet Visit Manager
+Gerenciador de Visitas Veterinárias
 
-Web application designed to manage client visits, track interactions, and optimize field operations for veterinary product representatives.
+Sistema web desenvolvido para otimizar o gerenciamento de visitas comerciais realizadas por representantes de produtos veterinários, centralizando informações de clientes, profissionais e histórico de atendimentos em uma única plataforma.
 
----
+Sobre o Projeto
 
-📌 About the Project
+Este projeto surgiu a partir da análise de um cenário real identificado durante um estudo de campo com um representante comercial do segmento veterinário.
 
-This project was created based on a real-world problem identified during a field study with a veterinary product promoter.
+O processo atual de gestão de visitas é realizado por meio de planilhas e registros manuais, o que gera dificuldades no acompanhamento das interações com clientes, controle de visitas periódicas e organização das informações coletadas em campo.
 
-Currently, visit management is handled manually using spreadsheets and notes, which leads to:
+A proposta da aplicação é digitalizar esse fluxo de trabalho, oferecendo uma solução centralizada para registro, acompanhamento e consulta das informações relacionadas às visitas comerciais.
 
-* Disorganization of client visits
-* Difficulty tracking interactions
-* Lack of centralized information
-* Time loss with manual processes
+Problema de Negócio
 
-The goal of this application is to centralize and simplify the entire workflow.
+Entre os principais desafios identificados estão:
 
----
-
-🚀 Features (MVP)
-
-* Client (clinic) registration
-* Contact/professional tracking
-* Visit registration (date, notes, outcome)
-* Visit status:
-
-  * Completed
-  * Pending
-  * Overdue
-* Search and filtering
-* Basic dashboard with visit summary
-
----
-
-🛠️ Tech Stack
-
+Controle manual das visitas realizadas;
+Dificuldade no acompanhamento do histórico de contatos;
+Informações dispersas em diferentes arquivos e anotações;
+Baixa visibilidade sobre pendências e próximos atendimentos;
+Tempo excessivo gasto em atividades administrativas.
+Funcionalidades Implementadas (MVP)
+Gestão de Clientes
+Cadastro de clínicas veterinárias;
+Consulta e atualização de informações dos clientes.
+Gestão de Contatos
+Cadastro de profissionais vinculados às clínicas;
+Registro de informações de contato.
+Gestão de Visitas
+Registro de visitas realizadas;
+Armazenamento de observações e resultados;
+Histórico completo de interações.
+Controle de Status
+Visita concluída;
+Visita pendente;
+Visita atrasada.
+Consulta de Informações
+Busca de clientes;
+Filtros para localização rápida de registros;
+Painel resumido de acompanhamento.
+Tecnologias Utilizadas
 Front-end
-
-* HTML
-* CSS
-* JavaScript
-* React (planned)
-
+HTML5
+CSS3
+JavaScript
+React (em evolução)
 Back-end
+Node.js
+Express.js
+Banco de Dados
+MySQL
+MariaDB
+Próximas Evoluções
+Sistema de autenticação e controle de acesso;
+Calendário de visitas e lembretes automáticos;
+Dashboard com indicadores e métricas;
+Exportação de relatórios em PDF e Excel;
+Interface responsiva para dispositivos móveis;
+Rotinas de backup e recuperação de dados.
+Objetivos de Aprendizagem
 
-* Node.js
-* Express
+Este projeto tem como objetivo:
 
-Database
+Consolidar conhecimentos em desenvolvimento Full Stack;
+Aplicar regras de negócio baseadas em um caso real;
+Praticar modelagem de dados e arquitetura de aplicações;
+Construir um projeto de portfólio alinhado a necessidades do mercado.
+Status do Projeto
 
-* MySQL / MariaDB
+🚧 Em desenvolvimento
 
----
+Autora
 
-📈 Future Improvements
+Eliza Lanzarini
 
-* Calendar and automated reminders
-* Authentication (login system)
-* Reports (PDF/Excel export)
-* Responsive UI improvements
-* Data backup
+Analista de Projetos Pleno, formada em Análise e Desenvolvimento de Sistemas (ADS) e pós-graduanda em Desenvolvimento Web Full Stack com foco em PHP.
 
----
-
-🎯 Project Goals
-
-* Practice full stack development
-* Apply real business rules into code
-* Build a portfolio project with real-world context
-
----
-
-🧠 Author
-
-Developed by Eliza Lanzarini
----
-
-📌 Status
-
-🚧 In development
-
+Atualmente atua na definição de requisitos, análise de sistemas e desenvolvimento de soluções para produtos de saúde, com interesse em desenvolvimento Full Stack e arquitetura de software.
